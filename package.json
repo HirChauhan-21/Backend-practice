@@ -1,0 +1,15 @@
+{
+  "name": "backend-practice",
+  "version": "1.0.0",
+  "description": "practicing backend",
+  "keywords": [
+    "backend"
+  ],
+  "license": "ISC",
+  "author": "Hir chauhan",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
