@@ -17,14 +17,15 @@ const uploadOnCloudinary = async (localFilePath) => {
 
     // file has been uploaded successfully
 
-    console.log("file is uploaded on cloudinary",response.url)
-    return response
+    console.log("file is uploaded on cloudinary", response.url);
+    return response;
   } catch (error) {
-    fs.unlinkSync
-    (localFilePath);
+    fs.unlinkSync(localFilePath);
     return null;
   }
 };
+
+export { uploadOnCloudinary };
 
 // cloudinary.v2.uploader.upload(
 //   "https://res.cloudinary.com/demo/image/upload/getting-started/shoes.jpg",
